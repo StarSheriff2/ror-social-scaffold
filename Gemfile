@@ -11,6 +11,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'rswag'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -53,6 +54,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'letter_opener'
+  gem 'rswag-specs'
   gem 'rest-client'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
